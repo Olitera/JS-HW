@@ -1,0 +1,67 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.result {
+    width: 175px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px;
+    border: solid black 1px;
+}
+
+.calculate-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.operation-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.operation {
+    border: solid black 1px;
+    background: #dadaa0;
+}
+
+.numbers-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.numbers-container div {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.number {
+    background: #c7c8ca;
+}
+
+.active {
+    background: yellow;
+}
+
+.square {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.border {
+    border: solid black 1px;
+}
