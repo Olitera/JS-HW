@@ -13,7 +13,6 @@ Object.prototype[Symbol.iterator] = function() {
   }
 
   let current = this.from;
-
   const end = this.to;
 
   return {
@@ -24,6 +23,7 @@ Object.prototype[Symbol.iterator] = function() {
 };
 
 const myIterable = { from: 1, to: 4 };
+
 for (let item of myIterable) {
   console.log(item);
 }

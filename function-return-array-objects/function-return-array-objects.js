@@ -36,6 +36,7 @@ function getPersons(name, age) {
 
       Object.defineProperty(object, 'name', { value: name, writable: true, enumerable: true, configurable: true });
       Object.defineProperty(object, 'age', { value: age, writable: true, enumerable: true, configurable: true });
+
       return object;
     })(),
     Object.defineProperties({}, {
