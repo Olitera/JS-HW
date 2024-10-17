@@ -1,0 +1,39 @@
+body {
+    margin: 0 auto;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+button:hover {
+    background: #cdcaca;
+}
+
+.stopwatch,
+.timer {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.stopwatch-time,
+.timer-time {
+    font-size: 40px;
+}
+
+.timer {
+    background: #656562;
+    color: white;
+}
+

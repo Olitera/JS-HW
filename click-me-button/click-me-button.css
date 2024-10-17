@@ -1,0 +1,26 @@
+body {
+    margin: 0 auto;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.click-me-button {
+    position: absolute;
+    width: 130px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background: yellow;
+    font-family: 'Apple Chancery', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.click-me-button:hover {
+    background: black;
+    color: yellow;
+}

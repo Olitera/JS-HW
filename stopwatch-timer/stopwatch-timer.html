@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <title>Stopwatch And Timer</title>
+  <link rel='stylesheet' href='stopwatch-timer.css'>
+</head>
+<body>
+<div class='stopwatch'>
+  <h2>Stopwatch</h2>
+  <div class='stopwatch-time'>00:00:00</div>
+  <div>
+    <button class='stopwatch-start' data-action='startStopwatch'>Start</button>
+    <button class='stopwatch-stop' data-action='stopStopwatch' disabled>Stop</button>
+    <button data-action='resetStopwatch'>Reset</button>
+  </div>
+</div>
+<div class='timer'>
+  <h2>Timer</h2>
+  <div class='timer-time'>00:00</div>
+  <div>
+    <button data-action='addMinute'>+1 Minute</button>
+    <button data-action='reduceMinute'>-1 Minute</button>
+    <button class='timer-start' data-action='startTimer' disabled>Start</button>
+    <button class='timer-stop' data-action='stopTimer' disabled>Stop</button>
+    <button data-action='resetTimer'>Reset</button>
+  </div>
+</div>
+<script type='module' src='index.js'></script>
+</body>
+</html>
